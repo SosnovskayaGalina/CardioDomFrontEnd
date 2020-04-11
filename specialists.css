@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
+/*------------------Заголовок страницы------------------*/
+.specialists{
+    margin: 40px auto;
+}
+
+.specialists h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+    font-size: 64pt;
+    line-height: 75pt;
+    padding: 10px 0px;
+}
+
+
+/*------------------Карточка------------------*/
+
+.card-button{
+    height: 80px;
+    width: 100%;
+}
+
+.btn-details{
+    margin: 10px 20px;
+    width: 150px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.row{
+    justify-content: space-around;
+}
+
+.card{
+    display: block;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.card-image{
+	
+}
+
+.card-image{
+    width: 100%;
+	height: 100%;
+	text-align: center;
+    overflow: hidden; 
+    align-items: flex-start;
+    vertical-align: top; 
+}
+
+/*.card-image img{
+    display:block;
+	margin:auto;
+}*/
+
+.card-body{
+    height: 200px;
+    width: auto;
+    overflow: hidden;
+}
