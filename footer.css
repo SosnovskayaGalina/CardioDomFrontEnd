@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
+
+/*-----------------------Блок противопоказаний-----------------------*/
+.jumbotron{
+    background-color: #F5F5F5;
+    margin-top: 10px;
+	margin-bottom: 10px;
+    padding-top: 40px;
+}
+
+#f-attention-1, 
+#f-attention-2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 36pt;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#f-attention-1{
+    color:#A9A8A8;
+}
+
+#f-attention-2{
+    color:#888585;
+}
+
+/*-----------------------График работы, контакты, помощь-----------------------*/
+.list-unstyled{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.f-header{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 0px!important;
+}

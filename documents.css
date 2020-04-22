@@ -1,0 +1,19 @@
+table {
+		width: 1000px; /* Ширина таблицы */
+		border: 1px solid black; /* Рамка вокруг таблицы */
+		margin: auto; /* Выравниваем таблицу по центру окна  */
+   }
+th, td {
+		text-align: center; /* Выравниваем текст по центру ячейки */
+		padding: 5px 5px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+		text-align: center;
+		color: #000000;
+	}
+.about h1, h4, p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+}

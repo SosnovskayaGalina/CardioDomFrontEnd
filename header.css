@@ -1,0 +1,79 @@
+/*------------------------Навигация------------------------*/
+.navbar-brand>img{
+    width: 250px;
+}
+.nav-link:hover{
+    color: #000000!important;
+    border-bottom: 3px solid gray;
+}
+
+.nav-link:active{
+    color: #FF0000!important;
+    border-bottom: 3px solid#FF0000;
+}
+
+.nav-link{
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar{
+    padding: 8px 0px;
+    margin: 20px auto;
+}
+.nav-item{
+    margin-left: 30px;
+}
+/*------------------------Кнопка "Объявления"------------------------*/
+.b-message-button{
+    color: #FF0000;
+    text-decoration: none;
+    border-radius: 15px;
+    height: 50px;
+    border: 1px solid #FF0000;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.b-message-button:hover{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: 1px solid #FF0000;
+}
+
+/*------------------------Поиск------------------------*/
+.b-search-container{
+    height: 50px;
+    vertical-align: middle; 
+    white-space: nowrap;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px auto;
+}
+
+.b-search-input{
+    height: 50px;
+    width: 100%;
+    background: #FFFFFF;
+    font-size: 16pt;
+    float: left;
+    color: #000000;
+    padding-left: 45px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+.b-search-container .icon{
+  position: absolute;
+  /*top: 50%;*/
+  margin-left: 15px;
+  margin-top: 10px;
+  z-index: 1;
+  font-size: 16pt;
+  color: #4f5b66;
+}

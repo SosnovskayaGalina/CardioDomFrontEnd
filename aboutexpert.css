@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
+.expert-description{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #000000;
+}
+
+.short-info{
+    /*height: 300px;*/
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.short-info *{
+    display: block;
+    justify-content: center;
+    align-self: start;
+}
+
+.short-info h4{
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.qualification{
+    padding-left: 15px;
+    border-left: 3px solid #ff0000;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.diploma-list{
+    list-style: square;
+}
+
+.diploma-list li{
+    color: #ff0000;
+    padding-bottom: 20px;
+}
+
+
+.diploma-list li span{
+    color: #000000;
+}
+
+.expert-photo{
+    height: 400px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: auto;
+    justify-content: center;
+}
+
+.photo{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
